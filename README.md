@@ -1,6 +1,9 @@
 # trie (prefix tree)
 c++ pure header template implementation 
 
+# introdution
+if you want a structure to store key-value and the key is combined with [a-zA-Z] or [0-9], trie is actually faster than map or unordered_map.
+
 # usage 1
 ```
 husky::trie<int> m_trie;
